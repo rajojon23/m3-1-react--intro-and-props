@@ -1,0 +1,87 @@
+
+
+.received-message{
+    display: flex;
+    flex-direction: row;
+}
+
+.received-message > img.messageImg{
+
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+}
+
+.received-message > .messageCol{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+}
+
+.received-message > .messageCol > .messageUser{
+    color: #424242;
+}
+
+.received-message > .messageCol > .messageBody{
+    background-color:#e9e9eb;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.sent-message{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 10px 0;
+    justify-content: flex-end;
+}
+
+.sent-message > img.messageImg{
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    display: none;
+}
+
+.sent-message > .messageCol{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sent-message > .messageCol > .messageUser{
+    display: none;
+}
+
+.sent-message > .messageCol > .messageBody{
+    background-color: #1185f7;
+    color: #fff;
+    font-size: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    
+    
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center; 
+    padding-top: 20px;  
+}
+.list-participants{
+    display: flex;
+    flex-direction: column;    
+    margin: 0 10px 0 10px;
+}
+
+.list-participants > img.messageImg{
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    align-self: center; 
+}
